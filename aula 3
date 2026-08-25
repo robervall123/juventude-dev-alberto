@@ -1,0 +1,23 @@
+<form action="/enviar-contato" method="post">
+
+<input type="text" name="nome"placeholder="seu nome">
+<input type="email" name="email"placeholder="seu@email.com">
+<input type="password" name="senha"placeholder="sua senha">
+<input type="number" name="idade"placeholder="sua idade"> 
+<input type="date" name="data de nascimento"placeholder="sua data">
+
+
+
+
+<input type="radio" name="genero"value= "m"> masculino
+<input type="radio" name="genero"value= "f"> feminino
+<input type="radio" name="genero"value= "outro"> outro
+    <input type="file" name="foto_perfil">
+
+<select name="assunto">
+ <option value="duvida">duvida</option>
+ <option value="elogio">elogio</option>
+ 
+
+
+</form>
